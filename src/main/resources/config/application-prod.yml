@@ -1,0 +1,9 @@
+server:
+    port: 8080
+
+spring:
+    profiles:
+        active: prod
+    data:
+        mongodb:
+            database: ds133557/heroku_19g1bf7b
