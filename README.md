@@ -13,6 +13,8 @@ In case you want to update a Sport, 'Id', 'Name' and 'Players' fields are mandat
 
 In case you want to delete a Sport, 'Id' field is mandatory. Once removed, rest of the sports listed on the top of the screen. 
 
+Swagger documentation: https://*/swagger-ui.html#/sports45controller
+
 In case you want to find a Sport, if you specify an Id, that is the one retrieved, if empty all sports will be listed.
 
 ### Technology Stack
