@@ -1,5 +1,5 @@
 
-###DESCRIPTION
+### DESCRIPTION
 
 This application allows to make any CRUD operation on a Sport entity. Just for OCS interview purporse.
 
@@ -15,7 +15,7 @@ In case you want to delete a Sport, 'Id' field is mandatory. Once removed, rest 
 
 In case you want to find a Sport, if you specify an Id, that is the one retrieved, if empty all sports will be listed.
 
-###Technology Stack###
+### Technology Stack
 
 Spring Boot, no-xml Spring MVC 3 web application for Servlet 3.0 environment
 Spring Data MongoDB
@@ -24,19 +24,19 @@ Thymeleaf templates with added Joda Time & Spring Security Dialects
 Heroku fully cloud deployable
 Java 8,  Maven 3,  Java 1.8 etc
 
-###Compatibility
+### Compatibility
 MongoDB version v3.x.x
 Java 1.8
 spring-boot-starter-parent 1.5.9
 AngularJS >1.2
 
 
-###Live Demo
+### Live Demo
 
 Be aware that this application is currently running on a free Heroku account. If it hasn't been accessed in 30 minutes, then the first request will take up to 120 seconds. Note that the demo application might fail to load altogether if the Heroku servers are busy.
 
 
-###Local Deployment
+### Local Deployment
 
 $ mvn clean install  
 $ mvn spring-boot:run
