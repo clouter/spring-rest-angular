@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html ng-app="films">
+<head>
+	<meta charset="UTF-8" />
+	<title>Sports on the Olympics games</title>
+</head>
+
+<body ng-app="spring-rest-angular" ng-controller="SportsController" ng-init="getSports()">
+
+	<div class="container" ng-show="sports != null">
+		<div class="sport-info-bottom" ng-repeat="sport in sports">
+			<h4><span> {{sport.name}} - {{sport.players}} </span></h4>
+		</div>
+	</div>
+	
+	<div class="form">
+		<label for="name">Name:</label>
+		<input id="name" ng-model="name" type="text" />
+		
+		<label for="players">Players:</label>
+		<input id="players" ng-model="players" type="number" />
+		
+		
+		<button id="addBtn" class="btn" ng-click="addSport()">Add Sport</button>
+	</div>
+	
+	<h4>{{msg}}</h4>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-resource.js"></script>
+	<script src="./js/services.js"></script>
+</body>
+</html>
